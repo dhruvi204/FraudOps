@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data (large files shouldn't go to git)
+data/*.csv
+data/*.parquet
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Env / secrets
+.env
+
+# OS
+.DS_Store
+
+# Docker
+docker/postgres_data/
